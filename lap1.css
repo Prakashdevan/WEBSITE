@@ -1,0 +1,94 @@
+#img1 {
+    width: 30%;
+    height: 50vh;
+    border: 1px solid #ccc;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+img {
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+}
+#para {
+    width: 60%;
+    /* height: 70%; */
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#cen {
+    width: 98%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+span {
+    color: black;
+    font-weight: bold;
+}
+#bold {
+    color: rgb(51, 112, 135);
+    margin-left: 2%;
+}
+#input {
+    height: 40px;
+    width: 40%;
+    background-color: rgb(116, 240, 240);
+    border: none;
+    padding: 5px;
+}
+#btn {
+    width: 20%;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    margin-left: 5px;
+}
+#super {
+    width: 100%;
+    background-color: rgb(124, 79, 165);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+}
+#super a {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: white;
+    margin: 0 8px;
+    transition: .5s;
+}
+#super a:hover {
+    background: white;
+    color: blueviolet;
+}
+.bottom-footer {
+    display: flex;
+    justify-content: space-around;
+    background: #222;
+    padding: 20px;
+}
+.footer-section h4 {
+    color: yellow;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+.copyright {
+    background: #111;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}

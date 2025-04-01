@@ -1,0 +1,312 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #28a745;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.products .card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.products .card:hover {
+    transform: scale(1.05);
+}
+
+.products .card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.products .card-body {
+    text-align: center;
+}
+
+.products .btn {
+    width: 100%;
+}
+
+.slider{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+figure{
+    position: relative;
+    left:0;
+    width:400%;
+    animation: 12s slide infinite;
+}
+.slide{
+    position: relative;
+    width: 25%;
+    float: left;
+    
+}
+.slide img{
+    width: 100%;
+    height: 500px;
+}
+@keyframes slide{
+    0%{
+        left:0;
+    }
+    10%{
+        left:0;
+    }
+    20%{
+        left:-100%;
+    }
+    30%{
+        left:-100%
+    }
+    40%{
+        left:-200%;
+    }
+    50%{
+        left:-200%
+    }
+    55%{
+        left:-300%;
+
+    }
+    65%{
+        left:-300%
+    }
+    66%{
+        left:-200%
+    }
+    75%{
+        left:-200%
+    }
+    85%{
+        left:-200%;
+    }
+    100%{
+        left:0;
+    }
+}
+#ceneter{
+    text-align: center;
+    height: 25%;
+    
+}
+#apple{
+    margin-top:5%;
+    width: 100%;
+    height: 50%;
+    /* border-style: groove; */
+    display: flex;
+}
+#a{
+    width: 20%;
+    /* border-style: groove; */
+   margin-left: 50px;
+}
+#m{
+    width: 100%;
+    height: 50vh;
+    /* border-style: groove; */
+    display: flex;
+    margin-top:5%;
+}
+#ab{
+    width:50%;
+    height:100%;
+    /* border-style: groove; */
+    position: relative;
+    
+}
+#abc{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-left: 2%;
+}
+#md{
+    width: 100%;
+    height: 50vh;
+    /* border-style: groove; */
+    display: flex;
+    margin-top:2%;
+}
+#super{
+    width: 100%;
+    height: 20vh;
+    /* border-style: groove;     */
+    margin-top: 3%;
+    background-color: rgb(124, 79, 165);
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+}
+#super a{
+    display: inline-block;
+    padding: 8px;
+    border: 2px solid #4f58da;
+
+    border-radius: 50%;
+    font-size: 50%;
+    color:#fff;
+     margin: 0 8px;
+    transition: .5s;
+
+}
+#super a:hover{
+    background: white;
+    color: blueviolet;
+}
+#para{
+    width: 95%;
+    height: 70%;
+    /* border-style: groove; */
+    margin-top: 4%;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+#ohmygod{
+    width: 100%;
+    height: 70vh;
+    /* border-style: groove; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #362c2c;
+    padding-top: 2%;
+    margin-top: 3%;
+   
+}
+#jack{
+    width:20%;
+    height: 35vh;
+    /* border-style: groove; */
+    
+}
+#cv{
+    text-align: center;
+    color: white;
+}
+#sd{
+    text-align: center;
+    color: #6c7378d6;
+}
+hr{
+    border-color: red;
+    border-style: solid none none;
+    border-width: 3px 0 0 ;
+    margin-bottom: 10%;
+}
+footer {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #0073b1;
+    color: white;
+}
+
+.top-footer .socials,
+.top-footer .newsletter {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.top-footer .newsletter input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.top-footer .newsletter button {
+    background-color: yellow;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.middle-footer {
+    padding: 20px;
+    background: #444;
+    text-align: center;
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #222;
+}
+
+.footer-section {
+    text-align: left;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    color: yellow;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.copyright {
+    background: #111;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    color:white;
+}
+
+    
